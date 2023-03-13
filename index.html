@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qustion Ans</title>
+</head>
+<body>
+    <strong>1.Difference between div and spen</strong>
+     <pre>
+        a. &ltdiv&gt : Division Tag, It is a Block-level Element , It takes the whole width of the browser/ webpage.
+                       1 Used create division of a webpage
+
+        b. &ltspan&gt : Span Tag, It is an inline Element, it only takes spaces as per the elements present inside of it
+                       1 Used to wrap small portions of text, image etc.    
+     </pre>
+    <strong>2.Differentiate between class and id attribute.</strong>
+    <pre>
+        Both Tags are used for providing identification parameters to a HTML element. 'class' attribute is generally used
+        for CSS styling whereas 'id'
+
+        id : Must be Unique
+        Class : Need not be Unique
+
+        &ltem class="myStyle">Something2&lt/em&gt
+        &ltem id="myStyle">Something2&lt/em&gt
+        
+    </pre> 
+    <strong>3.What are self-Closing Tags ?</strong>
+    <pre>
+        Self-Closing tags are tags that do not need a closing tag .
+
+        Eg : &ltimg&gl : image tag
+        &ltbr&gt : Line Break tag
+        &ltinput&gt : Input Tag
+        ○ &lthr&gt : Horizontal Rule Tag
+        &ltmeta&gt : meta tag : Only exists to provide information about the web document
+    </pre>
+    <strong>4.How many type of Headings are there ?</strong>
+    <pre>
+        a. H1 : 32px
+        b. H2 : 24px
+        c. H3 : 18px
+        d. H4 : 16px
+        e. H5 : 13px
+        f. H6 : 10px
+    </pre>
+    <strong>5. Difference between Block and Inline elements</strong>
+    <pre>
+        • Block Elements take the whole width of the webpage
+        • Inline Elements take width necessary for the content inside it
+
+        • Block Elements always start on a new Line
+        • Inline Elements dont not start on a new Line
+
+        • Block Elements Example : &ltdiv&gl &ltp&gt &lth1&gt to &lth6&gt &lttable&gt &ltli&gt
+        • Inline Elements Example : &ltspen&gt , &ltimg&gt , &lta&gt ,   &ltinput&gt , &ltlable&gt , &ltiframe&gt
+    </pre>
+    <strong>6. Difference between &ltem&gt and &ltstrong&gt</strong>
+        <pre>
+            Similarity : Both are inline elements that are used to emphasizing parts of a sentence.
+
+            Em : Makes it italicized : The &ltem&gt element is for words that have a stressed emphasis compared to surrounding
+            text, which is often limited to a word or words of a sentence and affects the meaning of the sentence itself. 'This
+            text or word is more important than the others'
+
+            The &ltstrong&gt element is for content that is of greater importance, while the &ltb&gt element is used to draw attention
+            to text without indicating that it's more important.
+        </pre>
+    <strong>7. What is an Attribute ?</strong>
+    <pre>
+        Attribute are special words that provide additional information about the specific Element that you have made .
+
+        Attributes are always specified in the starting tag of the HTML element
+
+        &ltform action="" method="" target=""&gt
+
+        &lt/form&gt
+    </pre>
+    <strong>8. Difference between HTML Tags and HTML Elements</strong>
+    <pre>
+        HTML Elements are created using HTML Tags
+        HTML Tags : Tags are enclosed between  &ltand&gt symbols .Every HTML element has it's own set of HTML Tags
+
+        An HTML element is the content that appears on the web page, while an HTML tag is the code used to define that
+       content and specify how it should be displayed.
+    </pre>
+    <strong>9. Explain the &ltbr&gt Tag ?</strong>
+    <pre>
+        • &ltbr&gt : Line Break
+        • Self Closing Tag
+        • It is a Block Element
+        • All Elements occurring after the &ltbr&gt will be sent to the next line
+        • Used for creating a division of Line.
+
+        • Used for creating a division of Line.
+        • When the web page is rendered in a web browser, any content that comes after the &ltbr&gt tag will appear on the
+          next line.
+    </pre>
+    <strong>10. What are Semantic Tags ?</strong>
+    <pre>
+      HTML Tags can be classified into two groups
+        ○ Semantic Tags
+          ▪ Tags that are specific about their functionality .
+          ▪ Eg : &ltimg&gt , &ltbutton&gt , &lth1&gt , &lta&gt
+        ○ Non-Semantic Tags
+          ▪ Tags that are generally meant to group/wrap other HTML Elements inside of them.
+          ▪ These tags don’t display anything by themselves
+          ▪ Eg : &ltdiv&gt, &ltspan&gt, &ltform&gt, &ltsection&gt , &ltnav&gt ,&ltheader&gt , &ltfooter&gt
+    </pre> 
+    <strong>11. write code to create an order list with roman number.</strong>
+    <ol type="i">
+          <li>Prepbytes</li>
+          <li>CollageDekho</li>
+    </ol>
+    <strong>12. write code to create an unorder list with circle.</strong>
+    <ul type="circle">
+        <li>Prepbytes</li>
+        <li>CollageDekho</li>
+    </ul>
+    <strong>13. write code to create link to https://www.prepbytes.com</strong>
+      <p>https://www.prepbytes.com</p> 
+    <strong>14. write a code to insert an image</strong><br>
+     <img src="14eccc4a39b0-logoPrepBytesMbl-1616482824963.avif" alt="No image" width="100px"></img><br>
+    <strong>15. write a form contain input fieilds like name age email and contact</strong><br><br>
+     <form>
+        <label for="name">Name</label><br>
+        <input type="text" name="name"><br>
+        <label for="age">Age</label><br>
+        <input type="date" name="age"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email"><br>
+        <label for="contact">Contact</label><br>
+        <input type="tel" name="contact"><br><br>
+        <button type="submit">Submit</button>
+     </form><br> 
+    <strong>16. Create a table and explain how to acheive colspan</strong><br><br>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>age</th>
+            <th>phone</th>
+        </tr>
+        <tr>
+            <td>Mohit</td>
+            <td>25</td>
+            <td>8240207851</td>
+        </tr>
+        <tr>
+            <td>Suresh</td>
+            <td>28</td>
+            <td>8240207800</td>
+        </tr>
+    </table><br>
+    <strong>17. Create radio button (MERN , MERN : Course) and checkbox(HTML , CSS , Node , technology) and explain the difference between these two</strong>
+    <form>
+        <label for="language">radio</label><br>
+        <input type="radio" name="language" value="MERN">MERN
+        <input type="radio" name="language" value="MERN">MERN
+        <input type="radio" name="language" value="MERN">MERN<br>
+
+        <label for="course">Checkbox</label><br>
+        <input type="checkbox" name="course" value="HTML">HTML
+        <input type="checkbox" name="course" value="CSS">CSS
+        <input type="checkbox" name="course" value="React">React
+        <input type="checkbox" name="course" value="Node">Node
+        <input type="checkbox" name="course" value="Technology">Technology
+    </form>
+    
+</body>
+</html>
